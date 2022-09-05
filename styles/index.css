@@ -1,0 +1,44 @@
+#section-img-home{
+    /* border: 1px solid rgb(214, 17, 17); */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+ #section-img-home img {
+    animation: flotar 5s infinite;
+
+}
+
+
+
+@keyframes flotar {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(80px);
+    }
+    80% {
+        transform: translateX(50px);
+    }
+    
+} 
+
+#section-table{
+    padding: 40px;
+}
+
+
+
+
+/* Estilo para la tabla */
+#section-table table{
+    text-align: center;
+    width: 100%;
+
+}
+
+#table,tr,td,th{
+    border: 1px solid black;
+}
